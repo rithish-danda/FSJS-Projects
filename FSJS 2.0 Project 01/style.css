@@ -1,0 +1,78 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+
+body{
+    background-color: #ffffff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    display: flex;
+    height: 20px;
+    margin-top: 65px;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+.navbar-container{
+    display: flex;
+    padding-bottom: 100px;
+ }
+/*.navbar-container>div{
+    height: 15px;
+} */
+
+nav>div>img{
+    height: 50px;
+}
+
+.list{
+    display: flex;
+}
+.list-item{
+    list-style: none;
+    color: #b3b3b3;
+    font-weight: 600px;
+    margin-right: 30px;
+}
+.navbar-container ul li:first-child{
+    color: black;
+}
+.nav-button{
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    background-color: #5955b3;
+    border-style: none;
+}
+.button-group{
+    position: relative;
+    left: 500px;
+}
+.btn{
+    position: relative;
+    top: 20px;
+    padding: 20px 40px;
+}
+.banner-container{
+    display: flex;
+    margin-left: 70px;
+}
+.heading-text{
+    color: #3c2f60;
+    font-size: 60px;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+.heading-text span{
+    color: #5955b3;
+}
+.description{
+    color: #929292;
+    margin-bottom: 65px;
+}
+.banner-container:nth-child(2){
+    margin-top: 80px;
+}
